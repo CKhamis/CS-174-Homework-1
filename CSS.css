@@ -13,13 +13,20 @@ p{
 }
 
 #info{
-	width:400px;
+	width:600px;
 	float:left;
 	background-color: #ffffce;
 	padding: 30px 0px 30px 10px;
 	border-style: solid;
 }
 #image{
-	width:900px;
+	width:600px;
 	float: right;
+	margin-bottom: 40px;
+}
+
+@media(max-width:700px){
+	#image{
+		float: left;
+	}
 }
